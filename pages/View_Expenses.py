@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("👁️ View Expense 👁️")
 
-file = "Expense.csv"
+file = "expenses.csv"
 
 # safely load expenses : create the file with headers if missing/empty
 def load_expenses(path: str) -> pd.DataFrame:
